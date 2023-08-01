@@ -3,7 +3,7 @@
 
     <string name="dialog_about_title">About</string>
     <string name="about_text">
-        Explore is application map and location base, you can search, view, find, navigate and save place around you.
+        ExplorAQP is application map and location base, you can search, view, find, navigate and save place around you.
     </string>
 
     <string name="publisher_id">pub-3239677920600357</string>
@@ -70,8 +70,7 @@
     <string name="str_nav_around_me">Around Me</string>
     <string name="str_nav_favorites">Favorites</string>
     <string name="str_nav_setting">Settings</string>
-    <string name="str_nav_rate">Rate</string>
-    <string name="str_nav_more_apps">More Apps</string>
+    <string name="str_nav_rate">Assistant</string>
     <string name="str_nav_about">About</string>
     <string name="sub_title_nav_others">Others</string>
 

@@ -196,9 +196,6 @@ public class ActivityMain extends AppCompatActivity {
         } else if (id == R.id.nav_rate) {
             Tools.rateAction(ActivityMain.this);
 
-        } else if (id == R.id.nav_more_app) {
-            Tools.directUrl(this, Constant.MORE_APP_URL + "?t=" + System.currentTimeMillis());
-
         } else if (id == R.id.nav_about) {
             Tools.aboutAction(ActivityMain.this);
 
