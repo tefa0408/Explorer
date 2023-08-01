@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "828114121541",
+    "project_id": "explorer-6df4d",
+    "storage_bucket": "explorer-6df4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828114121541:android:f52e5e2106f82b2d7a442c",
+        "android_client_info": {
+          "package_name": "com.app.explore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828114121541-esm5bejempclu36hpdnmq33aaal732lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIIeDKFLrkBcCaHS2odY-qpAdOS_X1DEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828114121541-esm5bejempclu36hpdnmq33aaal732lv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
