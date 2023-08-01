@@ -161,9 +161,6 @@ public class ActivityMain extends AppCompatActivity {
             Intent i = new Intent(getApplicationContext(), ActivitySetting.class);
             startActivity(i);
 
-        } else if (id == R.id.action_rate) {
-            Tools.rateAction(ActivityMain.this);
-
         } else if (id == R.id.action_about) {
             Tools.aboutAction(ActivityMain.this);
 

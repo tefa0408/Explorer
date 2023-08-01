@@ -86,7 +86,7 @@ public class ActivitySetting extends AppCompatActivity {
             case R.id.lyt_radius:
                 dialogRadius();
                 break;
-            case R.id.lyt_rate:
+            /*case R.id.lyt_rate:
                 Uri uri = Uri.parse("market://details?id=" + getPackageName());
                 Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
                 try {
@@ -94,13 +94,9 @@ public class ActivitySetting extends AppCompatActivity {
                 } catch (ActivityNotFoundException e) {
                     startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=" + getPackageName())));
                 }
-                break;
+                break;*/
             case R.id.lyt_about:
                 Tools.aboutAction(ActivitySetting.this);
-                break;
-
-            case R.id.lyt_term:
-                dialogTerm(ActivitySetting.this);
                 break;
         }
     }
