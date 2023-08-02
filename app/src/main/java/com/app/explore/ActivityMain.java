@@ -25,6 +25,7 @@ import com.app.explore.data.AppConfig;
 import com.app.explore.data.Constant;
 import com.app.explore.data.SharedPref;
 import com.app.explore.fragment.FragmentAround;
+import com.app.explore.fragment.FragmentAssistant;
 import com.app.explore.fragment.FragmentDirection;
 import com.app.explore.fragment.FragmentFavorites;
 import com.app.explore.fragment.FragmentFind;
@@ -194,7 +195,8 @@ public class ActivityMain extends AppCompatActivity {
             startActivity(i);
 
         } else if (id == R.id.nav_rate) {
-            Tools.rateAction(ActivityMain.this);
+            actionBar.setTitle(title);
+            fragment = new FragmentAssistant();
 
         } else if (id == R.id.nav_about) {
             Tools.aboutAction(ActivityMain.this);
